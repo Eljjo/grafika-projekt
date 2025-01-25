@@ -1,0 +1,47 @@
+Opis projektu
+Celem projektu jest stworzenie kompletnej aplikacji w OpenGL, C++ oraz GLSL, która symuluje zachowanie grupowe (algorytm Boids) z wykorzystaniem zaawansowanych technik grafiki komputerowej oraz interaktywnych elementów. Projekt powinien być realizowany w tych samych 3-osobowych zespołach, które przygotowały prezentacje.
+Projekt należy oprzeć na szkielecie kodu dostarczonym na zajęciach laboratoryjnych. Wszelkie dodatkowe biblioteki należy wcześniej skonsultować z prowadzącymi laboratoria.
+________________________________________
+Wymagania funkcjonalne projektu
+1.	Algorytm Boids:
+o	Realizacja trzech podstawowych reguł: separacja, wyrównanie, spójność.
+o	Dodatkowo: obsługa ograniczonego obszaru symulacji oraz prostych przeszkód (np. ściany, geometryczne przeszkody).
+2.	Detekcja i reakcja na kolizje:
+o	Obowiązkowe: Detekcja kolizji z wykorzystaniem AABB (Axis-Aligned Bounding Boxes).
+o	Wyższe oceny za implementację bardziej zaawansowanych metod, takich jak k-DOPs (k-Directional Oriented Bounding Volumes).
+3.	Środowisko symulacji:
+Projekt musi zawierać:
+o	Shadow Mapping (podstawowe cienie, bez miękkich krawędzi),
+o	Normal Mapping – użycie map normalnych w celu nadania realizmu powierzchniom.
+4.	Interaktywność:
+Projekt musi zawierać minimum 2 elementy interaktywne, takie jak:
+o	Wpływ użytkownika na zachowanie boidów (np. przyciąganie, odpychanie),
+o	Włączanie/wyłączanie efektów wizualnych (np. shadow mapping, normal mapping).
+5.	Kompozycja wizualna i efekty:
+o	Dbałość o estetykę projektu: wizualną spójność i czytelność symulacji.
+o	Efekty cieniowania, oświetlenia oraz teksturowania (normal mapping).
+________________________________________
+Ocena projektu
+Projekt będzie oceniany na podstawie:
+1.	Kompletności zaimplementowanych metod grafiki komputerowej:
+o	Algorytm Boids,
+o	Detekcja kolizji (AABB lub bardziej zaawansowane metody),
+o	Shadow Mapping oraz Normal Mapping,
+o	Interaktywność.
+2.	Kompozycji projektu:
+o	Estetyka wizualna,
+o	Spójność logiczna aplikacji.
+________________________________________
+Podział zadań w grupie (przykład):
+1.	Osoba 1: Implementacja algorytmu Boids oraz detekcji kolizji.
+2.	Osoba 2: Tworzenie środowiska (proceduralny teren lub woda) oraz implementacja oświetlenia i cieni (shadow mapping). 
+3.	Osoba 3: Interaktywność, normal mapping oraz kompozycja wizualna aplikacji. 
+
+________________________________________
+Wymagane dostarczenie
+•	Kod źródłowy: Czysty, dobrze udokumentowany i oparty na szkielecie dostarczonym na zajęciach.
+•	Wykonywalna aplikacja: Gotowa do uruchomienia.
+•	Raport końcowy: Krótki opis użytych metod, podziału pracy oraz wyzwań napotkanych podczas realizacji.
+•	5 minutowa prezentacja: Prezentacja w terminie egzaminu
+________________________________________
+
